@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    var array=['red', 'green', 'blue', 'yellow', 'orange'];
+    for(var index in array)
+    console.log(index)
+   </script>
+ <script>
+    var arr1= ['cat', 'dog', 'rabbit', 'elephant', 'lion'];
+    for(var element of arr1){
+    console.log(element)
+    }
+   </script>
+   <script>
+    var count=0; i=0;
+    var arr2 = [2, 4, 6, 8, 10];
+    while( i<arr2.length) {
+        count +=arr2[i]
+        i++;
+  }
+  console.log(count); 
+</script>
+<script>
+    var res=""; i=4;
+  var arr3 = [1,2,3,4,5];
+  do{
+    res +=arr3[i]
+    i--;
+  }
+  while(i>=0)
+  console.log(res); 
+</script>
+<script>
+    var count=0; i=0;
+    var arr4 = [3, 6, 9, 12, 15, 18];
+    do{
+        if(arr4[i]%2==0){
+        count +=arr4[i]
+    }
+        i++;
+} while( i<arr4.length) 
+  console.log(count); 
+</script>
+ <script>
+var arr5 = ['a', 'b', 'c', 'd', 'e'];
+var i = 4;
+var res = "";
+while (i >= 0) {
+    res += arr5[i]; 
+    if (i > 0) {
+        res += ","; 
+    }
+    i--; 
+}
+console.log(res);
+</script>  
+</body>
+</html>
